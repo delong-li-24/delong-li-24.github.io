@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Your Name
+# Delong Li
 
 **Mathematics · Research · Computational Algebra**
 
@@ -12,9 +12,9 @@ publications, and mathematical notes.
 
 ## Research interests
 
-- Algebra and polynomial computation
-- Computational mathematics
-- Symbolic computation
+- Abstract Algebra
+- Witt vectors
+- Sage
 
 ## Recent notes
 
@@ -24,4 +24,4 @@ publications, and mathematical notes.
 
 ## Contact
 
-`your.email@example.com`
+`delongli24@163.com`
