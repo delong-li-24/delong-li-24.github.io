@@ -6,13 +6,15 @@ permalink: /about/
 
 ## About me
 
-Write a short academic biography here. You can write in **English** and 中文.
+My research interests are in abstract algebra. I like teaching math. 
 
 ## Education
 
-- Degree, University, Year
+- Ph.D., University of Tennessee, 2020
+- Master, Arkansas State University, 2014
+- Bachelor, Xi'an Technological University, 2010
 
 ## Contact
 
-- Email: `your.email@example.com`
-- GitHub: [YOUR-GITHUB-USERNAME](https://github.com/YOUR-GITHUB-USERNAME)
+- Email: `delongli24@163.com`
+- GitHub: [delong-li-24](https://github.com/delong-li-24)
