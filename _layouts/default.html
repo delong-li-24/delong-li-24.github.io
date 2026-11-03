@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+        options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% seo %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/research/' | relative_url }}">Research</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/notes/' | relative_url }}">Notes</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container content">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="container">© {{ 'now' | date: '%Y' }} {{ site.title }} · Built with GitHub Pages</div>
+    </footer>
+  </body>
+</html>
